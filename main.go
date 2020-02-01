@@ -9,4 +9,5 @@ func main() {
 
 	u1.PrintName("Abhishek")
 	u1.PrintNameInHindi("अभिषेक प्रसाद")
+	u1.CalculateSpeed()
 }
