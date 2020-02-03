@@ -2,14 +2,18 @@ package main
 
 //go mod init github.com/get-programming-with-go
 
-func main() {
+import (
+	u1 "github.com/get-programming-with-go/unit_1"
+	u2 "github.com/get-programming-with-go/unit_2"
+)
 
-	u1.printName("Abhishek")
-	u1.printNameInHindi("अभिषेक प्रसाद")
-	u1.calculateSpeed()
-	u1.health()
-	//u1.GuessNumber()
-	u1.leapYear()
-	u2.piggy()
-	u2.modifiedPiggy()
+func main() {
+	u1.PrintName("Abhishek Prasad")
+	u1.PrintNameInHindi("अभिषेक प्रसाद")
+	u1.CalculateSpeed()
+	u1.Health()
+	u1.GuessNumber()
+	u1.LeapYear()
+	u2.Piggy()
+	u2.Piggy2()
 }

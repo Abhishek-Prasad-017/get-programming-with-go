@@ -14,7 +14,7 @@ import (
 
 var era = "AD"
 
-func leapYear() {
+func LeapYear() {
 	year := rand.Intn(2020) + 1
 	month := rand.Intn(12) + 1
 	daysInMonth := 31

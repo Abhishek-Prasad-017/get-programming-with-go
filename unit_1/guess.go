@@ -10,7 +10,7 @@ import (
 	"math/rand"
 )
 
-func guessNumber() {
+func GuessNumber() {
 	var myNumber = 20
 	var num = rand.Intn(100) + 1
 	for num != myNumber {

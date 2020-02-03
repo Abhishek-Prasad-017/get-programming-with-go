@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func exp() {
+func Exp() {
 	var vp = 0
 	fmt.Println(vp)
 }

@@ -11,7 +11,7 @@ Write a program that randomly places nickels ($0.05), dimes ($0.10), and quarter
  Display the running balance of the piggy bank after each deposit, formatting it with an appropriate width and precision.
 */
 
-func modifiedPiggy() {
+func Piggy2() {
 	var nickles = 5
 	var dimes = 10
 	var quarters = 25

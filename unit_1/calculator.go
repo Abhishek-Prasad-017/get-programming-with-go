@@ -8,7 +8,7 @@ Write a program to determine how fast a ship would need to travel (in km/h) in o
 import "fmt"
 
 // calculates-the-distance
-func calculateSpeed() {
+func CalculateSpeed() {
 	const days = 28
 	const hoursInDay = 24
 	var dist = 56000000
